@@ -1,0 +1,67 @@
+html {
+	background: linear-gradient(gray, black);
+}
+.center {
+	text-align: center;
+	align-content: center;
+	color: white;
+	position: fixed;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+.semicenter {
+	width: 600;
+	height: 350;
+	border: 1px solid;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	text-align: center;
+	color: white;
+	border-color: black;
+}
+
+.options {
+	text-align: center;
+	color: white;
+}
+a:hover{
+	color: white;
+
+}
+
+a:visited {
+	color: white;
+}
+
+a:active {
+	color: white;
+}
+
+.center2 {
+	text-align: center;
+	align-content: center;
+	color: white;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-left: -15;
+	font-family: corbel;
+}
+footer {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 75%);
+	text-align: center; 
+	align-content: center;
+	bottom: 0;
+
+		
+}
