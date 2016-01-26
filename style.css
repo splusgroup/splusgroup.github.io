@@ -101,13 +101,16 @@ footer {
 	}
 
 	footer {
-    position: absolute !important;
+    position: fixed !important;
     top: initial !important;
     left: initial !important;
     transform: initial !important;
     text-align: center;
     align-content: center;
     bottom: 0 !important;
-    margin-left: 3% !important;
-}
+	}
+
+	footer > a > img {
+		width: 150% !important;
+	}
 }
