@@ -68,7 +68,7 @@ footer {
   only screen and (max-width: 480px) {
 
 	body {
-		height: 150% !important;
+		height: 137% !important;
 		width: 135% !important;
 	}
 
@@ -120,7 +120,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)  {
 
 	body {
-		height: 150% !important;
+		height: 137% !important;
 		width: 135% !important;
 	}
 
