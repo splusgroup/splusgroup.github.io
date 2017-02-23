@@ -32,7 +32,7 @@ $(document).ready(function(){
 			$("#text").html("<span style='color:#606060; font-size: 40px; text-align: left; float: left;'><strong><br/>An active retirement lifestyle should improve with time - <span style='color: #BFBFBF'>safe </span> and <span style='color: #BFBFBF'>sustainable </span> at <span style='color: #F79646'>home</span>.</strong></span>");
 			$("#text").css("font-size", "40px");
 			$("#text").css("text-indent", "0");
-		$("#bottomScript").html("<span style='color: ; text-align: right; float: right; font-size: 20px;'>Aging in place solutions for your home.  Redefined.  </span></div>")
+		$("#bottomScript").html("<span style='color: #3C6074; text-align: right; float: right; font-size: 20px;'>Aging in place solutions for your home.  Redefined.  </span></div>")
 		$("#language").text("中文")
 	}
 	
