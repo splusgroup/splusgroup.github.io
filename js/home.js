@@ -3,6 +3,7 @@ var y = false;
 $(document).ready(function(){
 	Second();
 	
+	
 	$("#nextButton").click(function(){
 		if(x){
 			First();
