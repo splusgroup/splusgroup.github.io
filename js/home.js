@@ -1,7 +1,7 @@
 var x = false;
 var y = false;
 $(document).ready(function(){
-	Second();
+	
 	
 	
 	$("#nextButton").click(function(){
