@@ -458,11 +458,11 @@
                 var StringText= $("#text").val();
                 var ChineseChars = $("#chineseText").val();
                 
-            var Body = "Information for Flag purchase:\n" + "Outer Color: " + triangleColor + "; Inner Color: " + fillColor + "; Text Color: " + textColor + ";\nText to Display: " + "\"" + StringText + "\"" + "; Chinese Character Choice: " + ChineseChars + "; Country Flag to show: " + countryFlag;
+            var Body = "Information for Flag purchase:%0A" + "Outer Color: " + triangleColor + "; Inner Color: " + fillColor + "; Text Color: " + textColor + ";%0AText to Display: " + "\"" + StringText + "\"" + "; Chinese Character Choice: " + ChineseChars + "; Country Flag to show: " + countryFlag;
             
             var contact = prompt("Please enter your name", "John Doe")
             
-            var information = "Name: " + contact + " \n" + Body;
+            var information = "Name: " + contact + " %0A" + Body;
             
             window.location.href = "mailto:erees.hk@gmail.com?subject=Flag Purchase&body=" + information;
         }
